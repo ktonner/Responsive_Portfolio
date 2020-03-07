@@ -1,10 +1,15 @@
- .navbar-brand{
+.navbar-brand{
      background:teal;
      padding:10px;
+     font-family:'Times New Roman', Times, serif;
+     color: white;
+ }
+
+ .navbar{
      color:white;
  }
 
- .navbar-default .navbar-brand {
+ .navbar-default .navbar-brand a{
     color: white;
 }
 
