@@ -3,7 +3,7 @@ body{
 }
 
 .navbar-brand{
-     background:teal;
+     background:#4aaaa5;
      padding:10px;
      font-family:'Times New Roman', Times, serif;
      color: white;
@@ -23,11 +23,21 @@ body{
 
  .card-title{
      font-family:'Times New Roman', Times, serif;
-     color:teal;
+     color:#4aaaa5;
      font-weight:bold;
-     border-bottom:2px;
      margin-left:10px;
  }
+
+ hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid rgba(0, 0, 0, 0.1);
+  }
+
+.card-text{
+    float:left;
+}
 
  section{
      background:white;
