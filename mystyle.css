@@ -1,0 +1,13 @@
+ .navbar-brand{
+     background:teal;
+     padding:10px;
+     color:white;
+ }
+
+ .navbar-default .navbar-brand {
+    color: white;
+}
+
+ .collapse {
+    justify-content: flex-end;
+ }
