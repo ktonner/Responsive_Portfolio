@@ -1,3 +1,7 @@
+body{
+    background: #eeeeee;
+}
+
 .navbar-brand{
      background:teal;
      padding:10px;
@@ -15,4 +19,25 @@
 
  .collapse {
     justify-content: flex-end;
+ }
+
+ .card-title{
+     font-family:'Times New Roman', Times, serif;
+     color:teal;
+     font-weight:bold;
+     border-bottom:2px;
+     margin-left:10px;
+ }
+
+ section{
+     background:white;
+     margin:10px;
+     padding:10px;
+
+ }
+
+ section h1{
+     color:teal;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: bold;
  }
