@@ -49,7 +49,26 @@ body{
     max-width: 200px;
     height: auto;
     float: left;
+    margin-bottom: 5px;
 }
+
+.img-thumbnail{
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px
+}
+
+div.desc{
+    background-color: #4aaaa5;
+    width: 190px;
+    bottom: 20px;
+    color: #fff;
+    left: 10;
+    position: absolute;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+
 
  section{
      background:white;
