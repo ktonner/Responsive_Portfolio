@@ -50,6 +50,7 @@ body{
     height: auto;
     float: left;
     margin-bottom: 5px;
+    position: absolute;
 }
 
 .img-thumbnail{
@@ -61,10 +62,10 @@ body{
 div.desc{
     background-color: #4aaaa5;
     width: 190px;
-    bottom: 20px;
     color: #fff;
-    left: 10;
-    position: absolute;
+    position: relative;
+    top: 25%;
+    z-index: 2;
     text-align: center;
     font-family: 'Times New Roman', Times, serif
 }
