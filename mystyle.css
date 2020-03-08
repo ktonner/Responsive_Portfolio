@@ -35,8 +35,20 @@ body{
     border-top: 3px solid rgba(0, 0, 0, 0.1);
   }
 
+  .card{
+      max-width: 100%;
+      overflow: hidden;
+  }
+
 .card-text{
-    float:left;
+    word-wrap: break-word;
+    float: left;
+}
+
+.card-img{
+    max-width: 200px;
+    height: auto;
+    float: left;
 }
 
  section{
