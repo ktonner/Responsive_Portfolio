@@ -2,6 +2,8 @@ body{
     background: #eeeeee;
 }
 
+/*Navbar*/
+
 .navbar-brand{
      background:#4aaaa5;
      padding:10px;
@@ -9,17 +11,16 @@ body{
      color: white;
  }
 
- .navbar{
-     color:white;
+ .navbar-light .navbar-brand{
+color:white;
  }
 
- .navbar-default .navbar-brand a{
-    color: white;
-}
 
  .collapse {
     justify-content: flex-end;
  }
+
+ /*Card/Content*/
 
  .card-title{
      font-family:'Times New Roman', Times, serif;
@@ -81,6 +82,8 @@ div.desc{
     font-family: 'Times New Roman', Times, serif
 }
 
+/* Contact form */
+
 form{
     background:#fff;
     padding:20px;
@@ -94,15 +97,20 @@ form{
     background:#4aaaa5b6
 }
 
- section{
-     background:white;
-     margin:10px;
-     padding:10px;
+/*Footer CSS*/
 
- }
+.footer{
+    background: #666666;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    text-align:center;
+    height:50px;
+    color: #eeeeee;
+    z-index: 3;
+    padding: 5px;
+    border-top: 10px solid #4aaaa5;
+}
 
- section h1{
-     color:teal;
-     font-family:'Times New Roman', Times, serif;
-     font-weight: bold;
- }
